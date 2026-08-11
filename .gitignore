@@ -8,6 +8,12 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+# builder-bob output (generated on npm prepare)
+lib/
+
+# codegen output
+android/generated/
+
 # Xcode
 #
 build/
