@@ -38,8 +38,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aditya-tripathy/react-native-android-advertising-id.git",
-    "baseUrl": "https://github.com/aditya-tripathy/react-native-android-advertising-id"
+    "url": "git+https://github.com/aditya-tripathy/react-native-advertising-identifier.git",
+    "baseUrl": "https://github.com/aditya-tripathy/react-native-advertising-identifier"
   },
   "keywords": [
     "react-native",
@@ -54,9 +54,9 @@
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "bugs": {
-    "url": "https://github.com/aditya-tripathy/react-native-android-advertising-id/issues"
+    "url": "https://github.com/aditya-tripathy/react-native-advertising-identifier/issues"
   },
-  "homepage": "https://github.com/aditya-tripathy/react-native-android-advertising-id#readme",
+  "homepage": "https://github.com/aditya-tripathy/react-native-advertising-identifier#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"

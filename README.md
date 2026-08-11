@@ -1,5 +1,10 @@
 # react-native-advertising-identifier
 
+[![npm version](https://img.shields.io/npm/v/react-native-advertising-identifier.svg)](https://www.npmjs.com/package/react-native-advertising-identifier)
+[![license](https://img.shields.io/npm/l/react-native-advertising-identifier.svg)](LICENSE)
+
+📦 **npm**: [react-native-advertising-identifier](https://www.npmjs.com/package/react-native-advertising-identifier)
+
 Get the device advertising identifier in React Native:
 
 - **Android** — the Google Advertising ID (GAID) via Google Play services
