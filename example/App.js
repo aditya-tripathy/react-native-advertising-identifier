@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import {
   getAdvertisingId,
   requestTrackingAuthorization,
-} from 'react-native-android-advertising-id';
+} from 'react-native-advertising-identifier';
 
 export default function App() {
   const [trackingStatus, setTrackingStatus] = useState('pending');

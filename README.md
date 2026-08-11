@@ -1,4 +1,4 @@
-# react-native-android-advertising-id
+# react-native-advertising-identifier
 
 Get the device advertising identifier in React Native:
 
@@ -17,9 +17,9 @@ Written as a TurboModule with a backward-compatible spec, so it works on both th
 ## Installation
 
 ```sh
-npm install react-native-android-advertising-id
+npm install react-native-advertising-identifier
 # or
-yarn add react-native-android-advertising-id
+yarn add react-native-advertising-identifier
 ```
 
 Then install pods:
@@ -36,7 +36,7 @@ Autolinking takes care of the rest — no manual linking or `react-native link`.
 import {
   getAdvertisingId,
   requestTrackingAuthorization,
-} from 'react-native-android-advertising-id';
+} from 'react-native-advertising-identifier';
 
 // iOS 14+: ask for tracking permission first, otherwise the IDFA is all zeros.
 // On Android this resolves immediately with 'authorized'.
@@ -48,7 +48,7 @@ const { advertisingId, isLimitAdTrackingEnabled } = await getAdvertisingId();
 The default export keeps the v1 call style working:
 
 ```javascript
-import RNAdvertisingId from 'react-native-android-advertising-id';
+import RNAdvertisingId from 'react-native-advertising-identifier';
 
 RNAdvertisingId.getAdvertisingId()
   .then(({ advertisingId, isLimitAdTrackingEnabled }) => { /* ... */ })

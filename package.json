@@ -1,6 +1,6 @@
 {
-  "name": "react-native-android-advertising-id",
-  "title": "React Native Advertising Id",
+  "name": "react-native-advertising-identifier",
+  "title": "React Native Advertising Identifier",
   "version": "2.0.0",
   "description": "Get the Google Advertising ID (Android) and IDFA (iOS) in React Native, with App Tracking Transparency support",
   "source": "./src/index.ts",
@@ -25,7 +25,7 @@
     "lib",
     "android",
     "ios",
-    "react-native-advertising-id.podspec",
+    "react-native-advertising-identifier.podspec",
     "README.md",
     "!android/build",
     "!ios/build",
@@ -38,8 +38,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aditya-tripathy/react-native-advertising-id.git",
-    "baseUrl": "https://github.com/aditya-tripathy/react-native-advertising-id"
+    "url": "git+https://github.com/aditya-tripathy/react-native-android-advertising-id.git",
+    "baseUrl": "https://github.com/aditya-tripathy/react-native-android-advertising-id"
   },
   "keywords": [
     "react-native",
@@ -54,9 +54,9 @@
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "bugs": {
-    "url": "https://github.com/aditya-tripathy/react-native-advertising-id/issues"
+    "url": "https://github.com/aditya-tripathy/react-native-android-advertising-id/issues"
   },
-  "homepage": "https://github.com/aditya-tripathy/react-native-advertising-id#readme",
+  "homepage": "https://github.com/aditya-tripathy/react-native-android-advertising-id#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
